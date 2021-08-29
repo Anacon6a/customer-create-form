@@ -33,12 +33,17 @@ export default {
 
 <style lang="sass">
 $purple: #423189
+
 .box-phone
+  display: -webkit-inline-box
+  -webkit-box-pack: center
+  -webkit-box-align: center
   display: flex
   align-items: baseline
   border-bottom: 1px solid #ddd
   height: 38px
   box-sizing: border-box
+
 
 .box-phone_focus
   border: 1px solid $purple

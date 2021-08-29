@@ -608,6 +608,9 @@ $purple: #423189
   margin-top: 20px
 
 .form__input, .form__select
+  display: -webkit-inline-box
+  -webkit-box-pack: center
+  -webkit-box-align: center
   display: block
   padding: 10px 15px
   width: 100%
